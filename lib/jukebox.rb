@@ -28,7 +28,7 @@ def play
   
 end
 
-def 
+def exit_jukebox
 
 
 def say_hello(name)
