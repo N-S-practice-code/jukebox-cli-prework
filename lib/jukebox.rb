@@ -28,9 +28,9 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
   if songs.include?(input)
-    puts "Playing #{}"
+    puts "Playing #{input}"
   elsif input >= "1" and input >= "9"
-    puts "Playing #{}"
+    puts "Playing #{songs[input.to_i]}"
   else
     
   end
