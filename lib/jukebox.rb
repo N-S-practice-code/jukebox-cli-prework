@@ -27,7 +27,7 @@ end
 def play
   puts "Please enter a song name or number:"
   users_name = gets.chomp
-  
+  puts "Invalid input, please try again"
 end
 
 def exit_jukebox
