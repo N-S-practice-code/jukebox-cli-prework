@@ -29,9 +29,12 @@ def play
 end
 
 def exit_jukebox
-  puts ""
+  puts "Goodbye"
 end
 
+def run
+  
+end
 
 def say_hello(name)
   "Hi #{name}!"
