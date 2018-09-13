@@ -25,7 +25,8 @@ def list(songs)
 end
 
 def play
-  
+  puts "Please enter a song name or number:"
+  users_name = gets.chomp
 end
 
 def exit_jukebox
