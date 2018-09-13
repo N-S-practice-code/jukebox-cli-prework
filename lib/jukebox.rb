@@ -30,7 +30,7 @@ def play(songs)
   if songs.include?(input)
     puts "Playing #{}"
   elsif input >= "1" and input >= "9"
-    
+    puts "Playing #{}"
   else
     
   end
