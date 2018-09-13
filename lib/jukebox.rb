@@ -24,7 +24,7 @@ def list(songs)
   end
 end
 
-def play
+def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
   if inp
@@ -36,13 +36,13 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(songs)
   help
   puts "Please enter a command:"
   input = gets.chomp
   return exit_jukebox if input = "exit"
-  play if input = "play"
-  list if input = "list"
+  play(songs) if input = "play"
+  list(songs) if input = "list"
   help if input = "help"
   run
 end
