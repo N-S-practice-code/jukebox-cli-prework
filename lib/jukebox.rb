@@ -29,7 +29,7 @@ def play(songs)
   input = gets.chomp
   if songs.include?(input)
     puts "Playing #{}"
-  elsif
+  elsif input >= "1" and input >= "9"
     
   else
     
